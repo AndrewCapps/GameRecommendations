@@ -1,0 +1,167 @@
+body, html {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    background-color:rgba(255, 192, 203, 0.795);
+}
+
+
+
+.topSection {
+    width:100%;
+    height:200px;
+}
+
+.topContainer {
+    width: 100%;
+    height: 200px;
+}
+
+.topWrap{
+    width: 100%;
+    height: 200px;
+}
+
+.logo {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contentContainer {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.contentWrap {
+    width: 100%;
+    
+}
+
+.mainContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:100px;
+
+}
+
+.mainContent div {
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 250px;
+   height: 200px;
+   border: 1px solid black;
+   border-radius: 24px;
+   margin-top: 40px;
+}
+
+.mainContent div a {
+    text-decoration: none;
+    color:purple;
+    font-size: 16px;
+}
+
+
+/*Background images for Items 1-10 */
+
+.item1 {
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1340480/capsule_616x353.jpg?t=1702312562);
+    background-repeat: no-repeat;
+    background-position: -99px;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/4/4d/Pikmin_icon_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/1/13/Spiritfarer_cover_art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item5 {
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/770810/header.jpg?t=1703191580);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item6 {
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/sea-of-stars/2/2e/Sea_of_Stars_Walkthrough_page_%281%29.JPG);
+    background-position: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item7 {
+    background-image: url(https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/o/ori-and-the-blind-forest-definitive-edition-switch/hero);
+    background-position: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item8 {
+    background-image: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000036230/4a004eafe59c16347095553c7fe0e068daa50441c5a1c8639faf1bd43c9ca2eb);
+    background-position: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item9 {
+    background-image: url(https://i0.wp.com/www.techarp.com/wp-content/uploads/2019/04/Gone-Home-free-game.jpg?fit=624%2C351&ssl=1);
+    background-position: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item10 {
+    background-image: url(https://i0.wp.com/waytoomany.games/wp-content/uploads/2023/07/Dave-the-Diver-Cover-Image.png?fit=2000%2C1125&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*Button*/
+
+.button {
+    width:125px;
+    height: 40px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    border-radius: 24px;
+    background-image: linear-gradient(pink,white);
+
+}
+
+.button:active {
+    background-image: linear-gradient(purple,pink);
+    color:white;
+}
